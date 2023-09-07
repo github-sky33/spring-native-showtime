@@ -1,0 +1,50 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="cn.mindray.showtime.mapper.MongoRepo">-->
+
+
+<!--    <insert id="create" parameterType="cn.mindray.showtime.entity.Mongo" useGeneratedKeys="true" keyProperty="id">-->
+<!--        insert into mongo-->
+<!--            (-->
+<!--                name,-->
+<!--                color,-->
+<!--                weight,-->
+<!--                sweetness,-->
+<!--                production_place-->
+<!--            ) values (-->
+<!--                #{name},-->
+<!--                #{color},-->
+<!--                #{weight},-->
+<!--                #{sweetness},-->
+<!--                #{productionPlace}-->
+<!--            )-->
+<!--    </insert>-->
+
+
+<!--    <update id="update">-->
+<!--        update mongo set-->
+<!--             name=#{name},-->
+<!--             color=#{color},-->
+<!--             weight=#{weight},-->
+<!--             sweetness=#{sweetness},-->
+<!--             production_place=#{productionPlace}-->
+<!--         where id=#{id}-->
+<!--    </update>-->
+
+<!--    <delete id="delete">-->
+<!--        delete from mongo where id=#{id}-->
+<!--    </delete>-->
+
+
+<!--    <select id="fuzzy" resultType="cn.mindray.showtime.entity.Mongo">-->
+<!--        select * from mongo-->
+<!--        <if test="searchKey!=null and searchKey!=''">-->
+<!--            where name like concat('%' , #{searchKey} , '%')-->
+<!--        </if>-->
+<!--    </select>-->
+
+<!--    <select id="find" resultType="cn.mindray.showtime.entity.Mongo">-->
+<!--        select * from mongo where id=#{id}-->
+<!--    </select>-->
+
+<!--</mapper>-->
