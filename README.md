@@ -1,2 +1,3 @@
 # spring-native-showtime
-云原生相关
+-- Springboot3 集成 Mybatis
+-- XML集成尚在探索
